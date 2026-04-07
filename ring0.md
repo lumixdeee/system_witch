@@ -1,0 +1,1 @@
+### mogri (ring0) = min container to preserve intent across prompts
