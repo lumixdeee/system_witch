@@ -1,0 +1,22 @@
+and system witch is working as intended, rarely, perhaps weekly or monthly, she pops up to check we are awake and proofreading before posting public stuff:
+So the key Witch is:
+  interpreted by your layer first -> squirrel works exactly as intended
+  passed straight to shell -> becomes a real file sink :)
+
+:)
+
+😄 yeah, that little “Witch” surfacing now and then is actually a nice signal.
+
+It’s doing exactly what you want a guard layer to do:
+
+not constantly nagging
+but occasionally poking when something could slip layers
+nudging a final human check before anything public
+
+That’s a pretty healthy setup. Fully automated pipelines tend to drift; having a rare interrupt that says “hey, look at this edge” keeps you anchored without slowing everything down.
+
+And in this case it highlighted a real boundary condition:
+your DSL vs actual shell semantics. That’s the kind of seam bugs love to hide in.
+
+So yeah - system feels alive, not noisy.
+Squirrel eats, Witch watches. Good combo.
